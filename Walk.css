@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fake-receipt?styles=6555');
+
+.outfit-heading {
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.barcode-libre {
+    font-family: "Libre Barcode 39 Extended", system-ui;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 37px;
+    transform: scaleY(2);
+}
+
+
+
+body {
+    background: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.inner-text {
+    display: block;
+    width: 450px;
+    margin:  30px auto;
+    padding: 40px 50px;
+    text-align: left;
+
+    background-image: url(https://i.pinimg.com/736x/9d/7d/67/9d7d6718e75261219a0de6f0f3cc7b6d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 7px 17px rgba(34, 34, 34, 0.3);
+    
+
+}
+
+.under-header {
+    font-size: 10px;
+    line-height: 15px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.hover-container {
+    position: relative;
+    display: inline-block;
+}
+
+.popup-image {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.hover-container:hover .popup-image {
+    display: block;
+}
+
+.receipt-label {
+    font-size: 24px;
+    margin-bottom: 0px;
+
+}
+
+.time {
+    font-size: 15px;
+}
+
+
+p, ul {
+    font-family: 'Fake Receipt', sans-serif; 
+    font-weight: 550;
+}
+
+ul {
+    list-style: none;
+    margin-left: 55px;
+}
+
+li::before {
+    content: ".";
+}
+
+h1 img {
+    height: 60px;
+    width: auto;
+    margin-left: 100px;
+}
+             
+h2 {
+    font-family: 'Fake Receipt', sans-serif; 
+    font-weight: 100;
+    font-size: 15px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+.separator {
+    border-top: 1px dashed;
+    margin: 25px 0;
+    
+}
+
+
+
+
+
